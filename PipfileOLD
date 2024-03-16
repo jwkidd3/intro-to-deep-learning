@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+keras = '*'
+atari-py = "*"
+gym = "*"
+box2d = "*"
+box2d-kengz = "*"
+jsanimation = "*"
+keras-rl = "*"
+
+[packages]
+jupyter = "*"
+numpy = "*"
+tensorflow = "*"
+matplotlib = "*"
+pydot = "*"
+pandas = ">=0.24"
+sklearn = "*"
+seaborn = "*"
+pillow = "*"
+opencv-python = "*"
+bleach = ">=3.1.4"
+scipy = "*"
+tensorflow-datasets = "*"
+
+[requires]
+python_version = "3.8"
